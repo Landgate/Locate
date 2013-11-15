@@ -3,6 +3,10 @@ Locate
 
 Resources for developers want to working with Landgate's Locate service (http://www.locate.wa.gov.au/)
 
+MapId
+======
+The Locate mapId is 09372590152434720789-00913315481290556980
+
 Layers
 ======
 Contains the list of layers in Locate, along with their layerIds, layerKeys, 
