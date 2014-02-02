@@ -1,18 +1,11 @@
-Locate
-======
+Resources for developers want to work with Landgate's [*Locate*](http://www.locate.wa.gov.au) map service.
 
-Resources for developers want to working with Landgate's Locate service (http://www.locate.wa.gov.au/)
+This page is designed to be read alongside our [developer documentation for SLIP Future](https://github.com/Landgate/slip-developer-documentation/wiki).
 
-MapId
-======
-The Locate mapId is 09372590152434720789-00913315481290556980
+## layers.json
+Contains the list of layers in *Locate*, along with their layerIds, layerKeys, datasourceIds, URIs for their datasources, and some additional useful metadata.
 
-Layers
-======
-Contains the list of layers in Locate, along with their layerIds, layerKeys, 
-links to their datasources, and additional metadata.
 ```javascript
-
 {
   layerId: /* A globally unique ID used to refer to this layer */
   layerKey: /* The layer key - For the GMaps JS Lib. Not unique. */
@@ -25,3 +18,23 @@ links to their datasources, and additional metadata.
     Used for querying features and only applies to datasourceType "image". */
 }
 ```
+
+## Accessing *Locate's* Data
+What you need to access *Locate's* data depends on the API endpoints that you're using.
+
+### The GME API & WFS
+Accessing data via the Google Maps Engine API or WFS is at the datasource-level and requires a datasource assetId to be provided.
+
+### Google Maps JavaScript API
+The Google Maps JavaScript API has two ways of accessing data in Google Maps Engine:
+
+1. Via the layer assetId (recommended), or
+2. By supplying a map assetId and a layer key.
+
+> ***Locate's* mapID:** 09372590152434720789-00913315481290556980
+
+
+### WMS & WMTS
+WMS and WMTS access to *Locate* only require the mapId.
+
+> ***Locate's* mapID:** 09372590152434720789-00913315481290556980
