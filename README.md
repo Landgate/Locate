@@ -19,6 +19,10 @@ Contains the list of layers in *Locate*, along with their layerIds, layerKeys, d
 }
 ```
 
+For easier viewing of layers.json try the [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) Chrome extension or the free online [JSON Visualisation](http://chris.photobooks.com/json/default.htm) tool.
+
+> **Coming Soon:** Our brand new search and discovery tool! We'll intergrate all of this information and more in a single easy to use web interface.
+
 ## Accessing *Locate's* Data
 What you need to access *Locate's* data depends on the API endpoints that you're using.
 
