@@ -24,7 +24,7 @@ For easier viewing of layers.json try the [JSONView](https://chrome.google.com/w
 > **Coming Soon:** Our brand new search and discovery tool! We'll intergrate all of this information and more in a single easy to use web interface.
 
 ## Accessing *Locate's* Data
-What you need to access *Locate's* data depends on the API endpoints that you're using.
+How you access *Locate's* data depends on the API endpoints that you're using.
 
 ### The GME API & WFS
 Accessing data via the Google Maps Engine API or WFS is at the datasource-level and requires a datasource assetId to be provided.
@@ -36,8 +36,8 @@ Accessing data via the Google Maps Engine API or WFS is at the datasource-level 
 ### Google Maps JavaScript API
 The Google Maps JavaScript API has two ways of accessing data in Google Maps Engine:
 
-1. Via the layer assetId (recommended), or
-2. By supplying a map assetId and a layer key.
+1. Via the layerId (recommended), or
+2. By supplying a mapId and a layerKey.
 
 > ***Locate's* mapID:** 09372590152434720789-00913315481290556980
 
