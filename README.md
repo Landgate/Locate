@@ -1,6 +1,6 @@
-Resources for developers want to work with Landgate's [*Locate*](http://www.locate.wa.gov.au) map service.
+Resources for developers who want to work with Landgate's [*Locate*](http://www.locate.wa.gov.au) map service.
 
-If you've stumbled upon this page without first reading out developer documentation please head [over there](https://github.com/Landgate/slip-developer-documentation/wiki) first for a lot of useful information about *Locate* and how to access SLIP Future.
+If you have come to this page without first reading our developer documentation, please visit [there](https://github.com/Landgate/slip-developer-documentation/wiki) visit there first for useful information about  *Locate* and how to access new SLIP.
 
 ## layers.json
 Contains the list of layers in *Locate*, along with their layerIds, layerKeys, datasourceIds, URIs for their datasources, and some additional useful metadata.
@@ -24,7 +24,7 @@ For easier viewing of layers.json try the [JSONView](https://chrome.google.com/w
 > **Coming Soon:** Our brand new search and discovery tool! We'll intergrate all of this information and more in a single easy to use web interface.
 
 ## Accessing *Locate's* Data
-How you access *Locate's* data depends on the API endpoints that you're using.
+How you access *Locate's* data will depend on the API endpoints that you're using.
 
 ### The GME API & WFS
 Accessing data via the Google Maps Engine API or WFS is at the datasource-level and requires a datasource assetId to be provided.
