@@ -1,6 +1,6 @@
 Resources for developers who want to work with Landgate's [*Locate*](http://www.locate.wa.gov.au) map service.
 
-If you have come to this page without first reading our developer documentation, please visit [there](https://github.com/Landgate/slip-developer-documentation/wiki) visit there first for useful information about  *Locate* and how to access new SLIP.
+If you have come to this page without first reading our developer documentation, please visit [there](https://github.com/Landgate/slip-developer-documentation/wiki) first for useful information about  *Locate* and how to access new SLIP.
 
 ## layers.json
 Contains the list of layers in *Locate*, along with their layerIds, layerKeys, datasourceIds, URIs for their datasources, and some additional useful metadata.
